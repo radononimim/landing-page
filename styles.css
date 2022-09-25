@@ -1,4 +1,5 @@
 body {
+    font-family: 'Maven Pro', sans-serif;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -158,13 +159,11 @@ a{
 
 .top-mid a :hover {
     background-color: #3882f6;
-    .shld {
-    }
 }
 
 /* quote section */
 
-#quote-section {
+.quote-section-box {
     height: 500px;
     background-color: #E5E7EB;
     
@@ -194,10 +193,13 @@ a{
     align-self: flex-end;
     margin-right: 100px;
     font-weight: bold;
-    font-size: 20px;
-    
-
+    font-size: 20px;   
 }
+
+#tariel-link {
+    color: #3882f6;
+}
+
 
 /* bottom button */
 .bottom-section {
@@ -245,4 +247,11 @@ a{
 
 }
 
-
+.footer {
+    height: 100px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
