@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
 </head>
 
 
@@ -17,9 +20,9 @@
                 <div><img class="logo" src="images/knight.png" alt="image of a smiley knight"> </div>
                 <div class="right-links">
                     <ul>
-                        <li><a href="#">Shop Weapons</a></li>
-                        <li><a href="#">Our Clients</a></li>
-                        <li><a href="#">Become a Knight</a></li>
+                        <li><a href="#shop">Shop Weapons</a></li>
+                        <li><a href="#quote">Our Clients</a></li>
+                        <li><a href="#sign-up">Become a Knight</a></li>
                     </ul>
 
                 </div>
@@ -27,7 +30,7 @@
 
             <div class="header-bottom">
                 <div class="left">
-                    <div class="website-intro">Lebsite Intro</div>
+                    <div class="website-intro">Website Intro</div>
                     <div class="website-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
                     <button class="btn"><a href="#">shop now</a></button>
                 </div>
@@ -46,7 +49,7 @@
 
     <!-- Top Middle -->
 
-    <div class="top-mid">
+    <div class="top-mid" id="shop">
         <p class="mid-header">Top Sellers</p>
         <div class="weapons">
             <div class="items itm">
@@ -74,7 +77,7 @@
     </div>
 
         <!-- quote section -->
-    <div id="quote-section">
+    <div class="quote-section-box" id="quote">
 
         <div class="quote-section">
             <div class="quote">
@@ -83,7 +86,7 @@
             </div>
 
             <div class="author">
-                Tariel, from "The knight in the Panther's Skin"
+                Tariel, Knight from "<a id="tariel-link" href="https://en.wikipedia.org/wiki/The_Knight_in_the_Panther%27s_Skin" target="_blank">The knight in the Panther's Skin</a>"
 
             </div>
 
@@ -94,7 +97,7 @@
 
     <!-- bottom button -->
 
-    <div class="bottom-section">
+    <div class="bottom-section" id="sign-up">
         <div class="sign-up">
             <div class="btn-text">
                 <div id="btn-bold-text">It's Time To Become A Knight !</div>
@@ -111,7 +114,11 @@
         </div>
     </div>
 
+    <!-- footer -->
 
+    <div class="footer">
+        <div>Copyright @ The Odin Project 2022</div>
+    </div>
 
     
     
