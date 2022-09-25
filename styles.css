@@ -53,6 +53,10 @@ a{
 .right-links {
     align-self: center;
 }
+.right-links :hover {
+    color:  #3882f6;;
+}
+
 
 .main-img {
     width: 330px;
@@ -93,3 +97,55 @@ a{
 
 }
 
+
+/* middle section */
+
+.top-mid {
+    height: 400px;
+}
+
+.mid-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.top-mid img {
+    width: 100px;
+    height: auto;
+    border: 3px solid #3882f6;
+    border-radius: 20px;
+    padding: 10px;
+
+    
+}
+
+.weapons {
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+    
+}
+.items {
+    width: 120px;
+    height: 100px;
+    padding: 10px;
+    
+
+}
+
+.itm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.top-mid a :hover {
+    background-color: red;
+    .shld {
+        background-color: blue;
+    }
+}
